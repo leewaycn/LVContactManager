@@ -83,8 +83,14 @@
         UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:contactController];
 //        [picker presentViewController:nav animated:YES completion:nil];
 
-        [self.controller presentViewController:nav animated:YES completion:nil];
+//
 
+        if (self.controller.navigationController) {
+            [self.controller.navigationController pushViewController:contactController animated:YES];
+
+        }else{
+            [self.controller presentViewController:nav animated:YES completion:nil];
+        }
     }
 
 }
@@ -104,9 +110,12 @@
     {
         self.handler(name, phoneNumber);
     }
+    if (self.controller.navigationController) {
+        [self.controller.navigationController popViewControllerAnimated:YES];
 
-    [self.controller dismissViewControllerAnimated:YES completion:nil];
-
+    }else{
+        [self.controller dismissViewControllerAnimated:YES completion:nil];
+    }
     return NO;
 }
 
