@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581AC2B220AA6A91001EFD2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 581AC2B120AA6A91001EFD2D /* AppDelegate.m */; };
+		581AC2B520AA6A91001EFD2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581AC2B420AA6A91001EFD2D /* ViewController.m */; };
+		581AC2B820AA6A91001EFD2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581AC2B620AA6A91001EFD2D /* Main.storyboard */; };
+		581AC2BA20AA6A92001EFD2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581AC2B920AA6A92001EFD2D /* Assets.xcassets */; };
+		581AC2BD20AA6A92001EFD2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581AC2BB20AA6A92001EFD2D /* LaunchScreen.storyboard */; };
+		581AC2C020AA6A92001EFD2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 581AC2BF20AA6A92001EFD2D /* main.m */; };
+		581AC2C620AA6BA9001EFD2D /* naviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581AC2C520AA6BA9001EFD2D /* naviViewController.m */; };
+		581AC2C920AA6BBF001EFD2D /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581AC2C820AA6BBF001EFD2D /* homeViewController.m */; };
+		581AC2CA20AA6EB8001EFD2D /* LJContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B545AC221E8A088700D59DF8 /* LJContactManager.m */; };
+		581AC2CB20AA6EBB001EFD2D /* LJPeoplePickerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B545AC241E8A088700D59DF8 /* LJPeoplePickerDelegate.m */; };
+		581AC2CC20AA6EBF001EFD2D /* LJPickerDetailDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C4B0381EAD9A4F00AE5270 /* LJPickerDetailDelegate.m */; };
+		581AC2CD20AA6EC2001EFD2D /* LJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B545AC261E8A088700D59DF8 /* LJPerson.m */; };
 		B520F64E1E89232A008024CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B520F64D1E89232A008024CD /* main.m */; };
 		B520F6511E89232A008024CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B520F6501E89232A008024CD /* AppDelegate.m */; };
 		B520F6541E89232A008024CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B520F6531E89232A008024CD /* ViewController.m */; };
@@ -25,6 +37,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		581AC2AE20AA6A90001EFD2D /* purecodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = purecodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		581AC2B020AA6A91001EFD2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		581AC2B120AA6A91001EFD2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		581AC2B320AA6A91001EFD2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		581AC2B420AA6A91001EFD2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		581AC2B720AA6A91001EFD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		581AC2B920AA6A92001EFD2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		581AC2BC20AA6A92001EFD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		581AC2BE20AA6A92001EFD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581AC2BF20AA6A92001EFD2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		581AC2C420AA6BA9001EFD2D /* naviViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = naviViewController.h; sourceTree = "<group>"; };
+		581AC2C520AA6BA9001EFD2D /* naviViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = naviViewController.m; sourceTree = "<group>"; };
+		581AC2C720AA6BBF001EFD2D /* homeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeViewController.h; sourceTree = "<group>"; };
+		581AC2C820AA6BBF001EFD2D /* homeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
 		B520F6491E89232A008024CD /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B520F64D1E89232A008024CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B520F64F1E89232A008024CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +82,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		581AC2AB20AA6A90001EFD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B520F6461E89232A008024CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,11 +99,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		581AC2AF20AA6A91001EFD2D /* purecodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				581AC2B020AA6A91001EFD2D /* AppDelegate.h */,
+				581AC2B120AA6A91001EFD2D /* AppDelegate.m */,
+				581AC2B320AA6A91001EFD2D /* ViewController.h */,
+				581AC2B420AA6A91001EFD2D /* ViewController.m */,
+				581AC2C420AA6BA9001EFD2D /* naviViewController.h */,
+				581AC2C520AA6BA9001EFD2D /* naviViewController.m */,
+				581AC2C720AA6BBF001EFD2D /* homeViewController.h */,
+				581AC2C820AA6BBF001EFD2D /* homeViewController.m */,
+				581AC2B620AA6A91001EFD2D /* Main.storyboard */,
+				581AC2B920AA6A92001EFD2D /* Assets.xcassets */,
+				581AC2BB20AA6A92001EFD2D /* LaunchScreen.storyboard */,
+				581AC2BE20AA6A92001EFD2D /* Info.plist */,
+				581AC2BF20AA6A92001EFD2D /* main.m */,
+			);
+			path = purecodeDemo;
+			sourceTree = "<group>";
+		};
 		B520F6401E89232A008024CD = {
 			isa = PBXGroup;
 			children = (
 				B545AC201E8A088700D59DF8 /* LJContactManager */,
 				B520F64B1E89232A008024CD /* Demo */,
+				581AC2AF20AA6A91001EFD2D /* purecodeDemo */,
 				B520F64A1E89232A008024CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				B520F6491E89232A008024CD /* Demo.app */,
+				581AC2AE20AA6A90001EFD2D /* purecodeDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +190,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		581AC2AD20AA6A90001EFD2D /* purecodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581AC2C120AA6A92001EFD2D /* Build configuration list for PBXNativeTarget "purecodeDemo" */;
+			buildPhases = (
+				581AC2AA20AA6A90001EFD2D /* Sources */,
+				581AC2AB20AA6A90001EFD2D /* Frameworks */,
+				581AC2AC20AA6A90001EFD2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = purecodeDemo;
+			productName = purecodeDemo;
+			productReference = 581AC2AE20AA6A90001EFD2D /* purecodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B520F6481E89232A008024CD /* Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B520F6601E89232A008024CD /* Build configuration list for PBXNativeTarget "Demo" */;
@@ -161,6 +233,11 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = LeeJay;
 				TargetAttributes = {
+					581AC2AD20AA6A90001EFD2D = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = Z4X5U6ZY7Y;
+						ProvisioningStyle = Automatic;
+					};
 					B520F6481E89232A008024CD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = Z4X5U6ZY7Y;
@@ -182,11 +259,22 @@
 			projectRoot = "";
 			targets = (
 				B520F6481E89232A008024CD /* Demo */,
+				581AC2AD20AA6A90001EFD2D /* purecodeDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		581AC2AC20AA6A90001EFD2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581AC2BD20AA6A92001EFD2D /* LaunchScreen.storyboard in Resources */,
+				581AC2BA20AA6A92001EFD2D /* Assets.xcassets in Resources */,
+				581AC2B820AA6A91001EFD2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B520F6471E89232A008024CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,6 +288,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		581AC2AA20AA6A90001EFD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581AC2C620AA6BA9001EFD2D /* naviViewController.m in Sources */,
+				581AC2B520AA6A91001EFD2D /* ViewController.m in Sources */,
+				581AC2C020AA6A92001EFD2D /* main.m in Sources */,
+				581AC2C920AA6BBF001EFD2D /* homeViewController.m in Sources */,
+				581AC2CA20AA6EB8001EFD2D /* LJContactManager.m in Sources */,
+				581AC2CD20AA6EC2001EFD2D /* LJPerson.m in Sources */,
+				581AC2CC20AA6EBF001EFD2D /* LJPickerDetailDelegate.m in Sources */,
+				581AC2CB20AA6EBB001EFD2D /* LJPeoplePickerDelegate.m in Sources */,
+				581AC2B220AA6A91001EFD2D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B520F6451E89232A008024CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,6 +326,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		581AC2B620AA6A91001EFD2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581AC2B720AA6A91001EFD2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		581AC2BB20AA6A92001EFD2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581AC2BC20AA6A92001EFD2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		B520F65A1E89232A008024CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -233,6 +353,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		581AC2C220AA6A92001EFD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4X5U6ZY7Y;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = purecodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sly.purecodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		581AC2C320AA6A92001EFD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4X5U6ZY7Y;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = purecodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sly.purecodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B520F65E1E89232A008024CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -374,6 +540,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		581AC2C120AA6A92001EFD2D /* Build configuration list for PBXNativeTarget "purecodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581AC2C220AA6A92001EFD2D /* Debug */,
+				581AC2C320AA6A92001EFD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B520F6441E89232A008024CD /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
